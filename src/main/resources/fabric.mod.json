@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsmenu",
+  "version": "${version}",
+  "name": "FPS Menu",
+  "description": "Красивое мод-меню (клавиша P): FPS до 120+, FOV, плавность, оптимизация, анимации.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.fpsmenu.FpsMenuClient"]
+  },
+  "mixins": ["fpsmenu.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
